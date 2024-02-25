@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::after,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 40px 15px;
+}
+
+.nav_btns {
+  padding: 10px 15px;
+  border: none;
+  background-color: wheat;
+  border-radius: 6px;
+  transition: all 0.4s ease;
+}
+.nav_btns:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+.nav_btns:active {
+  transform: scale(0.9);
+}
+
+.tema {
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.card_wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 500px;
+  padding: 20px;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 6px;
+}
+.card_wrapper h3 {
+  text-align: center;
+}
+
+.form_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.form_login input {
+  padding: 7px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+.form_login button {
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(181, 142, 35);
+  border-radius: 6px;
+  color: white;
+}
+
+.forim_register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.forim_register input {
+  padding: 7px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+.forim_register button {
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(181, 142, 35);
+  border-radius: 6px;
+  color: white;
+}
+
+.admin {
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.employee {
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.employee {
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.btns {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.btns button {
+  padding: 10px 15px;
+  border: none;
+  background-color: wheat;
+  border-radius: 6px;
+  transition: all 0.4s ease;
+}
+.btns button:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+.btns button:active {
+  transform: scale(0.9);
+}

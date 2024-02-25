@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Joilla</title>
+  </head>
+  <body style="background-color: black">
+    <header>
+      <nav class="container nav_wrapper">
+        <button id="adminbtn" class="nav_btns">Admin</button>
+        <button id="employeebtn" class="nav_btns">Employee</button>
+        <button id="employerbtn" class="nav_btns">Employer</button>
+        <button id="temabtn" class="tema">Day</button>
+      </nav>
+    </header>
+    <main>
+      <center class="btns "><button>Log in</button> <button>Register</button></center>
+      <!-- admin sectionq -->
+      <section class="admin">
+        <div class="container card_wrapper">
+          <!-- login -->
+          <form id="adminFormLog" class="form_login">
+            <h3>Log in</h3>
+            <input type="text" placeholder="name" required />
+            <input type="password" placeholder="password" required />
+            <button>Submit</button>
+          </form>
+          <!-- Register -->
+          <form id="adminFormReg" class="forim_register">
+            <h3>Sign Up</h3>
+            <input type="text" placeholder="name" required />
+            <input type="password" placeholder="password" required />
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- employee  -->
+      <section class="employee hidden">
+        <div class="container card_wrapper">
+          <!-- login -->
+          <form id="employeeFormLog" class="form_login">
+            <h3>Log in</h3>
+
+            <input type="tel" placeholder="Phone Number" required />
+            <input type="password" placeholder="password" required />
+            <button>Submit</button>
+          </form>
+          <!-- Register -->
+          <form id="employeeFormReg" class="forim_register">
+            <h3>Sign Up</h3>
+            <input type="tel" placeholder="Phone Number" required />
+            <input type="password" placeholder="password" required />
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- employer  -->
+      <section class="employer hidden">
+        <div class="container card_wrapper">
+          <!-- login -->
+          <form id="employerFormLog" class="form_login">
+            <h3>Log in</h3>
+
+            <input type="tel" placeholder="Phone Number" />
+            <input type="password" placeholder="password" />
+            <button>Submit</button>
+          </form>
+          <!-- Register -->
+          <form id="employerFormReg" class="forim_register">
+            <h3>Sign Up</h3>
+            <input type="tel" placeholder="Phone Number" />
+            <input type="password" placeholder="password" />
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+      <!-- end of  -->
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
