@@ -16,19 +16,25 @@
       </nav>
     </header>
     <main>
-      <center class="btns "><button>Log in</button> <button>Register</button></center>
+      <center class="btns">
+        <button id="loginToggle" class="hidden">Log in</button>
+        <button id="RegisterToggle" >Register</button>
+      </center>
       <!-- admin sectionq -->
       <section class="admin">
         <div class="container card_wrapper">
           <!-- login -->
           <form id="adminFormLog" class="form_login">
+            <h3>Admin</h3>
             <h3>Log in</h3>
             <input type="text" placeholder="name" required />
             <input type="password" placeholder="password" required />
             <button>Submit</button>
           </form>
           <!-- Register -->
-          <form id="adminFormReg" class="forim_register">
+          <form id="adminFormReg" class="forim_register hidden">
+            <h3>Admin</h3>
+
             <h3>Sign Up</h3>
             <input type="text" placeholder="name" required />
             <input type="password" placeholder="password" required />
@@ -42,6 +48,7 @@
         <div class="container card_wrapper">
           <!-- login -->
           <form id="employeeFormLog" class="form_login">
+            <h3>Employee</h3>
             <h3>Log in</h3>
 
             <input type="tel" placeholder="Phone Number" required />
@@ -49,7 +56,8 @@
             <button>Submit</button>
           </form>
           <!-- Register -->
-          <form id="employeeFormReg" class="forim_register">
+          <form id="employeeFormReg" class="forim_register hidden">
+            <h3>Employee</h3>
             <h3>Sign Up</h3>
             <input type="tel" placeholder="Phone Number" required />
             <input type="password" placeholder="password" required />
@@ -63,6 +71,7 @@
         <div class="container card_wrapper">
           <!-- login -->
           <form id="employerFormLog" class="form_login">
+            <h3>Employer</h3>
             <h3>Log in</h3>
 
             <input type="tel" placeholder="Phone Number" />
@@ -70,7 +79,8 @@
             <button>Submit</button>
           </form>
           <!-- Register -->
-          <form id="employerFormReg" class="forim_register">
+          <form id="employerFormReg" class="forim_register hidden">
+            <h3>Employer</h3>
             <h3>Sign Up</h3>
             <input type="tel" placeholder="Phone Number" />
             <input type="password" placeholder="password" />
@@ -78,8 +88,10 @@
           </form>
         </div>
       </section>
+      
       <!-- end of  -->
     </main>
+    <div class="load"><span class="loader"></span></div>
     <script src="./js/main.js"></script>
   </body>
 </html>

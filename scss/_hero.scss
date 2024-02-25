@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  padding: 40px 15px;
+  padding: 10px 15px;
 }
 
 .nav_btns {
@@ -11,6 +11,7 @@
   background-color: wheat;
   border-radius: 6px;
   transition: all 0.4s ease;
+  border: 1px solid #000;
 
   &:hover {
     background-color: white;
@@ -20,6 +21,7 @@
   &:active {
     transform: scale(0.9);
   }
+ 
 }
 
 .tema {
@@ -110,16 +112,14 @@
   display: none;
 }
 
-.bg_white {
-  background-color: white;
-}
+
 
 .btns {
   padding: 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
-  
+
   button {
     padding: 10px 15px;
     border: none;
@@ -136,4 +136,8 @@
       transform: scale(0.9);
     }
   }
+}
+
+.bg_white {
+  background-color: white;
 }
